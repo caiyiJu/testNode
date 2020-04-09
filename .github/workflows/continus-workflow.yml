@@ -1,1 +1,4 @@
 
+- uses: azure/webapps-deploy@v1
+      with:
+        creds: ${{ secrets.secret1 }}
